@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/selectButton3"
+        android:layout_width="161dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="416dp"
+        android:text="hard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selectButton2"
+        android:layout_width="161dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="288dp"
+        android:text="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SelectButton1"
+        android:layout_width="161dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="156dp"
+
+        android:text="easy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/musicButton"
+        android:layout_width="151dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="580dp"
+        android:text="music"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
